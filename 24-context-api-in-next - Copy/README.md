@@ -80,7 +80,7 @@ function Main({ isDarkMode }) {
 
 ### Context API to the Rescue!
 
-With Context API, we create a " store" that any component can access directly, without prop drilling.
+With Context API, we create a "global store" that any component can access directly, without prop drilling.
 
 ```jsx
 // ✅ Good: Context API approach
